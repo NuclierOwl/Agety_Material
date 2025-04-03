@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Agents_BD_Tres.Hardik.Connect.Dao
 {
-    class MaterialDao
+    public class MaterialDao
     {
         public int id { get; set; }
         public string title { get; set; }

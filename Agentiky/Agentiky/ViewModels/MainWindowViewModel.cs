@@ -8,6 +8,8 @@ namespace Agentiky.ViewModels
 {
     public class MainWindowViewModel : ViewModelBase
     {
+        public List<AgentTypeDao> AgentTypes { get; set; }
+        public List<string> SortOptions { get; } = new List<string> { "Наименование", "Размер скидки", "Приоритет" };
         public IEnumerable<ProductDao> Products { get; }
             = new ObservableCollection<ProductDao>();
 

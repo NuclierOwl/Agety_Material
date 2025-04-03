@@ -1,83 +1,82 @@
-﻿using Agents_BD_Tres.Hardik.Connect;
-using Agents_BD_Tres.Hardik.Connect.Dao;
-using Avalonia.Controls;
-using Microsoft.EntityFrameworkCore;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Threading.Tasks;
+using Agents_BD_Tres.Hardik.Connect;
+using Agents_BD_Tres.Hardik.Connect.Dao;
+using Npgsql;
 
 namespace Agentiky.Hardik.Dop
 {
-    public class UpravaOgentov
+    public class UpravaOgentov : IDisposable
     {
-        private readonly Connecter _context;
+        private readonly DatabaseConnection _dbConnection;
+        private readonly NpgsqlConnection _connection;
 
         public UpravaOgentov()
         {
-            _context = new Connecter();
-            _context.Database.EnsureCreated();
+            _dbConnection = new DatabaseConnection();
+            _connection = _dbConnection.GetConnection();
         }
 
-
-        public async Task<List<ProductDao>> GetAllProductsAsync() =>
-            await _context.product.ToListAsync();
-
-        public async Task<ProductDao> GetProductByIdAsync(int id) =>
-            await _context.product.FirstOrDefaultAsync(p => p.id == id);
-
-        public async Task AddProductAsync(ProductDao product)
-        {
-            await _context.product.AddAsync(product);
-            await _context.SaveChangesAsync();
-        }
-
-        public async Task UpdateProductAsync(ProductDao product)
-        {
-            _context.Entry(product).State = EntityState.Modified;
-            await _context.SaveChangesAsync();
-        }
-
-        public async Task DeleteProductAsync(int id)
-        {
-            var product = await _context.product.FindAsync(id);
-            if (product != null)
-            {
-                _context.product.Remove(product);
-                await _context.SaveChangesAsync();
-            }
-        }
         public List<ProductDao> GetAllProducts() =>
-            _context.product.ToList();
+            _dbConnection.GetAllProducts();
 
         public ProductDao GetProductById(int id) =>
-            _context.product.FirstOrDefault(p => p.id == id);
+            GetAllProducts().FirstOrDefault(p => p.id == id);
 
         public void AddProduct(ProductDao product)
         {
-            _context.product.Add(product);
-            _context.SaveChanges();
+            using (var cmd = new NpgsqlCommand("INSERT INTO \"Tres\".product (title, producttypeid, articlenumber, description, image, productionpersoncount, productionworkshopnumber, mincostforagent) VALUES (@title, @producttypeid, @articlenumber, @description, @image, @productionpersoncount, @productionworkshopnumber, @mincostforagent)", _connection))
+            {
+                cmd.Parameters.AddWithValue("@title", product.title);
+                cmd.Parameters.AddWithValue("@producttypeid", product.producttypeid ?? (object)DBNull.Value);
+                cmd.Parameters.AddWithValue("@articlenumber", product.articlenumber);
+                cmd.Parameters.AddWithValue("@description", product.description ?? (object)DBNull.Value);
+                cmd.Parameters.AddWithValue("@image", product.image ?? (object)DBNull.Value);
+                cmd.Parameters.AddWithValue("@productionpersoncount", product.productionpersoncount ?? (object)DBNull.Value);
+                cmd.Parameters.AddWithValue("@productionworkshopnumber", product.productionworkshopnumber ?? (object)DBNull.Value);
+                cmd.Parameters.AddWithValue("@mincostforagent", product.mincostforagent);
+                cmd.ExecuteNonQuery();
+            }
         }
 
         public void UpdateProduct(ProductDao product)
         {
-            _context.Entry(product).State = EntityState.Modified;
-            _context.SaveChanges();
+            using (var cmd = new NpgsqlCommand("UPDATE \"Tres\".product SET title = @title, producttypeid = @producttypeid, articlenumber = @articlenumber, description = @description, image = @image, productionpersoncount = @productionpersoncount, productionworkshopnumber = @productionworkshopnumber, mincostforagent = @mincostforagent WHERE id = @id", _connection))
+            {
+                cmd.Parameters.AddWithValue("@id", product.id);
+                cmd.Parameters.AddWithValue("@title", product.title);
+                cmd.Parameters.AddWithValue("@producttypeid", product.producttypeid ?? (object)DBNull.Value);
+                cmd.Parameters.AddWithValue("@articlenumber", product.articlenumber);
+                cmd.Parameters.AddWithValue("@description", product.description ?? (object)DBNull.Value);
+                cmd.Parameters.AddWithValue("@image", product.image ?? (object)DBNull.Value);
+                cmd.Parameters.AddWithValue("@productionpersoncount", product.productionpersoncount ?? (object)DBNull.Value);
+                cmd.Parameters.AddWithValue("@productionworkshopnumber", product.productionworkshopnumber ?? (object)DBNull.Value);
+                cmd.Parameters.AddWithValue("@mincostforagent", product.mincostforagent);
+                cmd.ExecuteNonQuery();
+            }
         }
 
         public void DeleteProduct(int id)
         {
-            var product = _context.product.Find(id);
-            if (product != null)
+            using (var cmd = new NpgsqlCommand("DELETE FROM \"Tres\".product WHERE id = @id", _connection))
             {
-                _context.product.Remove(product);
-                _context.SaveChanges();
+                cmd.Parameters.AddWithValue("@id", id);
+                cmd.ExecuteNonQuery();
             }
         }
 
-        public List<ProductDao> FilterProducts(string searchTerm) =>
-            _context.product
-                .Where(p => p.title.Contains(searchTerm) ||
-                           p.description.Contains(searchTerm))
+        public List<ProductDao> FilterProducts(string searchTerm)
+        {
+            return GetAllProducts()
+                .Where(p => p.title.Contains(searchTerm, StringComparison.OrdinalIgnoreCase) ||
+                            (p.description?.Contains(searchTerm, StringComparison.OrdinalIgnoreCase) ?? false))
                 .ToList();
+        }
+
+        public void Dispose()
+        {
+            _dbConnection.Dispose();
+        }
     }
 }

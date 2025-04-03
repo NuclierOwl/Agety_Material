@@ -10,13 +10,12 @@ namespace Agents_BD_Tres.Hardik.Connect.Dao
     {
         public int id { get; set; }
         public string title { get; set; }
-        public int countinpack { get; set; }
-        public string unit { get; set; }
-        public int idcountinstock { get; set; }
-        public float mincount { get; set; }
+        public int? producttypeid { get; set; }
+        public string articlenumber { get; set; }
         public string description { get; set; }
-        public int cost { get; set; }
         public string image { get; set; }
-        public int materialtypeid { get; set; }
+        public int? productionpersoncount { get; set; }
+        public int? productionworkshopnumber { get; set; }
+        public decimal mincostforagent { get; set; } 
     }
 }
