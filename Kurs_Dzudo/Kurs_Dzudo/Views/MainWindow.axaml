@@ -6,14 +6,15 @@
         mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
         x:Class="Kurs_Dzudo.Views.MainWindow"
         x:DataType="vm:MainWindowViewModel"
-        Icon="C:\Users\PC\source\Dopolnenia\Kartinki\Iconki\Ico\logoDzudo.ico"
+        Icon="avares://Kurs_Dzudo/Assets/avalonia-logo.ico"
         Title="Kurs_Dzudo">
 
 	<Grid VerticalAlignment="Center" HorizontalAlignment="Center">
 		<StackPanel VerticalAlignment="Center">
 			<TextBox x:Name="UserNameText" Watermark="Login"/>
 			<TextBox x:Name="PassTextBox" Watermark="Password" />
-			<Button x:Name="ProverkaPorola" Content="Войти"/>
+			<Button x:Name="ProverkaPorola" Content="Войти" Click="ProverkaPorola_Click"/>
+			<Button Content="Участник" Click="Izmenenia_Click"/>
 		</StackPanel>
 	</Grid>
 </Window>

@@ -3,7 +3,6 @@ using Avalonia.Interactivity;
 using Kurs_Dzudo.Hardik.Connector;
 using Kurs_Dzudo.Hardik.Dop;
 using System.Linq;
-using System.Threading.Tasks;
 
 namespace Kurs_Dzudo.Views;
 
@@ -53,5 +52,12 @@ public partial class MainWindow : Window
                 await DopFunctii.ShowError(this, "Пользователь не найден");
             }
         }
+    }
+
+    private void Izmenenia_Click(object ob, RoutedEventArgs e)
+    {
+        var logo = new UserWindow();
+        logo.Show();
+        this.Close();
     }
 }
