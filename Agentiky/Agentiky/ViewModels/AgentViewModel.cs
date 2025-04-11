@@ -3,15 +3,16 @@ using Agents_BD_Tres.Hardik.Connect.Dao;
 using Avalonia.Media;
 using Avalonia.Media.Imaging;
 
-public class AgentViewModel //моде отображения огентов
+namespace Agentiky.ViewModels;
+public class AgentViewModel //отображение агентов
 {
     public AgentDao Agent { get; set; }
     public AgentTypeDao AgentType { get; set; }
     public int SalesCount { get; set; }
-    public int Discount { get; set; }
+    public int? Discount { get; set; }
     public string AgentImagePath { get; set; }
     public string TypeImagePath { get; set; }
-    public IImage AgentImage
+    public IImage? AgentImage
     {
         get
         {
@@ -19,11 +20,11 @@ public class AgentViewModel //моде отображения огентов
             {
                 if (!string.IsNullOrEmpty(Agent.logo) && File.Exists(Agent.logo))
                 {
-                    return new Bitmap(Agent.logo);
+                    return new Bitmap($"Assets/agents/{Agent.logo}");
                 }
             }
             catch { }
-            return new Bitmap("Assets/picture.png");
+            return new Bitmap("C:/Users/PC/source/repos/Agentiky/Agentiky/Assets/Proger.jpg");
         }
     }
     public IImage TypeImage

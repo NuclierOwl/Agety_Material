@@ -1,16 +1,11 @@
 using Avalonia.Controls;
-using Avalonia.Interactivity;
-using Avalonia.Media;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using Agents_BD_Tres.Hardik.Connect;
 using Agents_BD_Tres.Hardik.Connect.Dao;
-using Avalonia.Layout;
-using Avalonia.Controls.Primitives;
-using Avalonia.Media.Imaging;
-using System.IO;
 using Avalonia.Data;
+using Agentiky.ViewModels;
 
 namespace Agentiky.Views
 {
@@ -122,7 +117,7 @@ namespace Agentiky.Views
             };
         }
 
-        private void ApplyFiltersAndSort()
+        private void ApplyFiltersAndSort() //фильтры
         {
             var filteredAgents = _allAgents.AsQueryable();
 
@@ -175,17 +170,17 @@ namespace Agentiky.Views
                 .ToList();
 
             AgentsListBox.ItemsSource = pagedAgents;
-            UpdatePaginationButtons();
+            UpdatePagesButtons();
         }
 
-        private void UpdatePaginationButtons()
+        private void UpdatePagesButtons() //актуализация кнопок для страниц
         {
-            var paginationPanel = (StackPanel)NextButton.Parent;
+            var PagesPanel = (StackPanel)NextButton.Parent;
 
 
-            while (paginationPanel.Children.Count > 2)    //удаление старых кнопок
+            while (PagesPanel.Children.Count > 2)    //удаление старых кнопок
             {
-                paginationPanel.Children.RemoveAt(1);
+                PagesPanel.Children.RemoveAt(1);
             }
 
 
@@ -198,11 +193,11 @@ namespace Agentiky.Views
                     _currentPage = page;
                     ApplyFiltersAndSort();
                 };
-                paginationPanel.Children.Insert(paginationPanel.Children.Count - 1, pageButton);
+                PagesPanel.Children.Insert(PagesPanel.Children.Count - 1, pageButton);
             }
         }
 
-        private int GetTotalPages()
+        private int GetTotalPages() //кол-во страниц
         {
             return (int)Math.Ceiling(_allAgents.Count / (double)ItemsPerPage);
         }

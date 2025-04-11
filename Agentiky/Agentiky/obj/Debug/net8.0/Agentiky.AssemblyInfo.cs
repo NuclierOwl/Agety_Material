@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Agentiky")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c36456ebee1fbfbba28c4c8148192183db63831b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ab545a0174bebaa554dad32f9b7bc39400df8c7c")]
 [assembly: System.Reflection.AssemblyProductAttribute("Agentiky")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Agentiky")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

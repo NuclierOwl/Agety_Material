@@ -120,7 +120,7 @@ namespace Agents_BD_Tres.Hardik.Connect
         public int GetAgentSalesCount(int agentId, DateTime startDate, DateTime endDate) //счетчик продаж
         {
             using (var cmd = new NpgsqlCommand(
-                "SELECT COUNT(*) FROM \"Tres\".productsale WHERE agentid = @agentId AND saleDate BETWEEN @startDate AND @endDate",
+                "SELECT COUNT(*) FROM \"Tres\".productcosthistory WHERE productid = @agentId AND changedate BETWEEN @startDate AND @endDate",
                 _connection))
             {
                 cmd.Parameters.AddWithValue("@agentId", agentId);
@@ -133,8 +133,8 @@ namespace Agents_BD_Tres.Hardik.Connect
         public decimal GetAgentTotalSalesAmount(int agentId) // сумма продаж
         {
             using (var cmd = new NpgsqlCommand(
-                "SELECT SUM(ps.quantity * p.mincostforagent) FROM \"Tres\".productsale ps " +
-                "JOIN \"Tres\".product p ON ps.productid = p.id WHERE ps.agentid = @agentId",
+                "SELECT SUM(ps.costvalue * p.mincostforagent) FROM \"Tres\".productcosthistory ps " +
+                "JOIN \"Tres\".product p ON ps.productid = p.id WHERE ps.id = @agentId",
                 _connection))
             {
                 cmd.Parameters.AddWithValue("@agentId", agentId);
@@ -146,9 +146,7 @@ namespace Agents_BD_Tres.Hardik.Connect
         public void UpdateAgent(AgentDao agent) // добавление агентов
         {
             using (var cmd = new NpgsqlCommand(
-                "UPDATE \"Tres\".agent SET title = @title, agenttypeid = @agenttypeid, address = @address, " +
-                "inn = @inn, kpp = @kpp, directorname = @directorname, phone = @phone, email = @email, " +
-                "logo = @logo, priority = @priority WHERE id = @id",
+                "UPDATE \"Tres\".agent SET priority = @priority WHERE id = @id",
                 _connection))
             {
                 cmd.Parameters.AddWithValue("@id", agent.id);
@@ -160,8 +158,7 @@ namespace Agents_BD_Tres.Hardik.Connect
 
 
 
-
-        public void Dispose() // Отключение от БД
+            public void Dispose() // Отключение от БД
         {
             _connection?.Close();
             _connection?.Dispose();

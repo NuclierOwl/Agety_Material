@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Agents_BD_Tres.Hardik.Connect.Dao
+﻿namespace Agents_BD_Tres.Hardik.Connect.Dao
 {
     public class ProductDao
     {

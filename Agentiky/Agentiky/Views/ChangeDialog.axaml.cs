@@ -1,7 +1,10 @@
 using Avalonia.Controls;
+using Avalonia.Interactivity;
 using Avalonia.Layout;
 
-public class ChangeDialog : Window // 
+namespace Agentiky.Views;
+
+public partial class ChangeDialog : Window //изменение преоритетов
 {
     public int NewPriority { get; private set; }
 
@@ -61,5 +64,16 @@ public class ChangeDialog : Window //
         stackPanel.Children.Add(buttonPanel);
 
         Content = stackPanel;
+    }
+
+    public void OkButton_Click(object sender, RoutedEventArgs e)
+    {
+        NewPriority = (int)PriorityBox.Value;
+        Close(true);
+    }
+    
+    public void CancelButton_Click(object sender, RoutedEventArgs e)
+    {
+        Close(false);
     }
 }

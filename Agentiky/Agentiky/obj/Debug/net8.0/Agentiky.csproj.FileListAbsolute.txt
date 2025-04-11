@@ -120,6 +120,5 @@ C:\Users\PC\source\repos\Agentiky\Agentiky\obj\Debug\net8.0\refint\Avalonia\Agen
 C:\Users\PC\source\repos\Agentiky\Agentiky\obj\Debug\net8.0\Agentiky.csproj.Up2Date
 C:\Users\PC\source\repos\Agentiky\Agentiky\obj\Debug\net8.0\Agentiky.genruntimeconfig.cache
 C:\Users\PC\source\repos\Agentiky\Agentiky\obj\Debug\net8.0\ref\Agentiky.dll
-C:\Users\PC\source\repos\Agentiky\Agentiky\obj\Debug\net8.0\Agentiky.dll
-C:\Users\PC\source\repos\Agentiky\Agentiky\obj\Debug\net8.0\refint\Agentiky.dll
-C:\Users\PC\source\repos\Agentiky\Agentiky\obj\Debug\net8.0\Agentiky.pdb
+C:\Users\PC\source\repos\Agentiky\Agentiky\bin\Debug\net8.0\Npgsql.dll
+C:\Users\PC\source\repos\Agentiky\Agentiky\bin\Debug\net8.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll

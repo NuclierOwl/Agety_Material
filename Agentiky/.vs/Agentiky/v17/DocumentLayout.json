@@ -3,56 +3,64 @@
   "WorkspaceRootPath": "C:\\Users\\PC\\source\\repos\\Agentiky\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{90EDBE1E-24A9-44E8-B36F-7787B232D408}|Agentiky\\Agentiky.csproj|c:\\users\\pc\\source\\repos\\agentiky\\agentiky\\views\\changedialog.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{90EDBE1E-24A9-44E8-B36F-7787B232D408}|Agentiky\\Agentiky.csproj|solutionrelative:agentiky\\views\\changedialog.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{90EDBE1E-24A9-44E8-B36F-7787B232D408}|Agentiky\\Agentiky.csproj|c:\\users\\pc\\source\\repos\\agentiky\\agentiky\\views\\changedialog.axaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{90EDBE1E-24A9-44E8-B36F-7787B232D408}|Agentiky\\Agentiky.csproj|solutionrelative:agentiky\\views\\changedialog.axaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{90EDBE1E-24A9-44E8-B36F-7787B232D408}|Agentiky\\Agentiky.csproj|c:\\users\\pc\\source\\repos\\agentiky\\agentiky\\views\\mainwindow.axaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{90EDBE1E-24A9-44E8-B36F-7787B232D408}|Agentiky\\Agentiky.csproj|solutionrelative:agentiky\\views\\mainwindow.axaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{90EDBE1E-24A9-44E8-B36F-7787B232D408}|Agentiky\\Agentiky.csproj|c:\\users\\pc\\source\\repos\\agentiky\\agentiky\\views\\mainwindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{90EDBE1E-24A9-44E8-B36F-7787B232D408}|Agentiky\\Agentiky.csproj|solutionrelative:agentiky\\views\\mainwindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{90EDBE1E-24A9-44E8-B36F-7787B232D408}|Agentiky\\Agentiky.csproj|c:\\users\\pc\\source\\repos\\agentiky\\agentiky\\hardik\\connect\\connecter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90EDBE1E-24A9-44E8-B36F-7787B232D408}|Agentiky\\Agentiky.csproj|solutionrelative:agentiky\\hardik\\connect\\connecter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{90EDBE1E-24A9-44E8-B36F-7787B232D408}|Agentiky\\Agentiky.csproj|c:\\users\\pc\\source\\repos\\agentiky\\agentiky\\viewmodels\\agentviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{90EDBE1E-24A9-44E8-B36F-7787B232D408}|Agentiky\\Agentiky.csproj|solutionrelative:agentiky\\viewmodels\\agentviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{90EDBE1E-24A9-44E8-B36F-7787B232D408}|Agentiky\\Agentiky.csproj|c:\\users\\pc\\source\\repos\\agentiky\\agentiky\\viewmodels\\mainwindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{90EDBE1E-24A9-44E8-B36F-7787B232D408}|Agentiky\\Agentiky.csproj|solutionrelative:agentiky\\viewmodels\\mainwindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{90EDBE1E-24A9-44E8-B36F-7787B232D408}|Agentiky\\Agentiky.csproj|c:\\users\\pc\\source\\repos\\agentiky\\agentiky\\viewlocator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{90EDBE1E-24A9-44E8-B36F-7787B232D408}|Agentiky\\Agentiky.csproj|solutionrelative:agentiky\\viewlocator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{90EDBE1E-24A9-44E8-B36F-7787B232D408}|Agentiky\\Agentiky.csproj|c:\\users\\pc\\source\\repos\\agentiky\\agentiky\\hardik\\dop\\upravaogentov.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{90EDBE1E-24A9-44E8-B36F-7787B232D408}|Agentiky\\Agentiky.csproj|solutionrelative:agentiky\\hardik\\dop\\upravaogentov.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{90EDBE1E-24A9-44E8-B36F-7787B232D408}|Agentiky\\Agentiky.csproj|c:\\users\\pc\\source\\repos\\agentiky\\agentiky\\hardik\\connect\\connecter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{90EDBE1E-24A9-44E8-B36F-7787B232D408}|Agentiky\\Agentiky.csproj|solutionrelative:agentiky\\hardik\\connect\\connecter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{90EDBE1E-24A9-44E8-B36F-7787B232D408}|Agentiky\\Agentiky.csproj|c:\\users\\pc\\source\\repos\\agentiky\\agentiky\\hardik\\connect\\dao\\materialdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{90EDBE1E-24A9-44E8-B36F-7787B232D408}|Agentiky\\Agentiky.csproj|solutionrelative:agentiky\\hardik\\connect\\dao\\materialdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{90EDBE1E-24A9-44E8-B36F-7787B232D408}|Agentiky\\Agentiky.csproj|c:\\users\\pc\\source\\repos\\agentiky\\agentiky\\hardik\\connect\\dao\\agentdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{90EDBE1E-24A9-44E8-B36F-7787B232D408}|Agentiky\\Agentiky.csproj|solutionrelative:agentiky\\hardik\\connect\\dao\\agentdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{90EDBE1E-24A9-44E8-B36F-7787B232D408}|Agentiky\\Agentiky.csproj|c:\\users\\pc\\source\\repos\\agentiky\\agentiky\\hardik\\connect\\dao\\productdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{90EDBE1E-24A9-44E8-B36F-7787B232D408}|Agentiky\\Agentiky.csproj|solutionrelative:agentiky\\hardik\\connect\\dao\\productdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{90EDBE1E-24A9-44E8-B36F-7787B232D408}|Agentiky\\Agentiky.csproj|c:\\users\\pc\\source\\repos\\agentiky\\agentiky\\viewlocator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90EDBE1E-24A9-44E8-B36F-7787B232D408}|Agentiky\\Agentiky.csproj|solutionrelative:agentiky\\viewlocator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{90EDBE1E-24A9-44E8-B36F-7787B232D408}|Agentiky\\Agentiky.csproj|c:\\users\\pc\\source\\repos\\agentiky\\agentiky\\views\\mainwindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90EDBE1E-24A9-44E8-B36F-7787B232D408}|Agentiky\\Agentiky.csproj|solutionrelative:agentiky\\views\\mainwindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{90EDBE1E-24A9-44E8-B36F-7787B232D408}|Agentiky\\Agentiky.csproj|c:\\users\\pc\\source\\repos\\agentiky\\agentiky\\viewmodels\\mainwindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90EDBE1E-24A9-44E8-B36F-7787B232D408}|Agentiky\\Agentiky.csproj|solutionrelative:agentiky\\viewmodels\\mainwindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{90EDBE1E-24A9-44E8-B36F-7787B232D408}|Agentiky\\Agentiky.csproj|c:\\users\\pc\\source\\repos\\agentiky\\agentiky\\viewmodels\\viewmodelbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{90EDBE1E-24A9-44E8-B36F-7787B232D408}|Agentiky\\Agentiky.csproj|solutionrelative:agentiky\\viewmodels\\viewmodelbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{90EDBE1E-24A9-44E8-B36F-7787B232D408}|Agentiky\\Agentiky.csproj|c:\\users\\pc\\source\\repos\\agentiky\\agentiky\\hardik\\dop\\upravaogentov.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90EDBE1E-24A9-44E8-B36F-7787B232D408}|Agentiky\\Agentiky.csproj|solutionrelative:agentiky\\hardik\\dop\\upravaogentov.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{90EDBE1E-24A9-44E8-B36F-7787B232D408}|Agentiky\\Agentiky.csproj|c:\\users\\pc\\source\\repos\\agentiky\\agentiky\\hardik\\dop\\convectors.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90EDBE1E-24A9-44E8-B36F-7787B232D408}|Agentiky\\Agentiky.csproj|solutionrelative:agentiky\\hardik\\dop\\convectors.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{90EDBE1E-24A9-44E8-B36F-7787B232D408}|Agentiky\\Agentiky.csproj|c:\\users\\pc\\source\\repos\\agentiky\\agentiky\\views\\mainwindow.axaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{90EDBE1E-24A9-44E8-B36F-7787B232D408}|Agentiky\\Agentiky.csproj|solutionrelative:agentiky\\views\\mainwindow.axaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{90EDBE1E-24A9-44E8-B36F-7787B232D408}|Agentiky\\Agentiky.csproj|c:\\users\\pc\\source\\repos\\agentiky\\agentiky\\views\\changedialog.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90EDBE1E-24A9-44E8-B36F-7787B232D408}|Agentiky\\Agentiky.csproj|solutionrelative:agentiky\\views\\changedialog.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{90EDBE1E-24A9-44E8-B36F-7787B232D408}|Agentiky\\Agentiky.csproj|c:\\users\\pc\\source\\repos\\agentiky\\agentiky\\hardik\\connect\\dao\\agenttypedao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90EDBE1E-24A9-44E8-B36F-7787B232D408}|Agentiky\\Agentiky.csproj|solutionrelative:agentiky\\hardik\\connect\\dao\\agenttypedao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{90EDBE1E-24A9-44E8-B36F-7787B232D408}|Agentiky\\Agentiky.csproj|c:\\users\\pc\\source\\repos\\agentiky\\agentiky\\views\\changedialog.axaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{90EDBE1E-24A9-44E8-B36F-7787B232D408}|Agentiky\\Agentiky.csproj|solutionrelative:agentiky\\views\\changedialog.axaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{90EDBE1E-24A9-44E8-B36F-7787B232D408}|Agentiky\\Agentiky.csproj|c:\\users\\pc\\source\\repos\\agentiky\\agentiky\\app.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90EDBE1E-24A9-44E8-B36F-7787B232D408}|Agentiky\\Agentiky.csproj|solutionrelative:agentiky\\app.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{90EDBE1E-24A9-44E8-B36F-7787B232D408}|Agentiky\\Agentiky.csproj|c:\\users\\pc\\source\\repos\\agentiky\\agentiky\\views\\mainwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
@@ -86,84 +94,128 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 9,
+              "Title": "Convectors.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\Agentiky\\Agentiky\\Hardik\\Dop\\Convectors.cs",
+              "RelativeDocumentMoniker": "Agentiky\\Hardik\\Dop\\Convectors.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\Agentiky\\Agentiky\\Hardik\\Dop\\Convectors.cs",
+              "RelativeToolTip": "Agentiky\\Hardik\\Dop\\Convectors.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAACgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T08:49:39.455Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Connecter.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\Agentiky\\Agentiky\\Hardik\\Connect\\Connecter.cs",
+              "RelativeDocumentMoniker": "Agentiky\\Hardik\\Connect\\Connecter.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\Agentiky\\Agentiky\\Hardik\\Connect\\Connecter.cs",
+              "RelativeToolTip": "Agentiky\\Hardik\\Connect\\Connecter.cs",
+              "ViewState": "AgIAAIgAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T08:19:32.139Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AgentTypeDao.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\Agentiky\\Agentiky\\Hardik\\Connect\\Dao\\AgentTypeDao.cs",
+              "RelativeDocumentMoniker": "Agentiky\\Hardik\\Connect\\Dao\\AgentTypeDao.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\Agentiky\\Agentiky\\Hardik\\Connect\\Dao\\AgentTypeDao.cs",
+              "RelativeToolTip": "Agentiky\\Hardik\\Connect\\Dao\\AgentTypeDao.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T07:52:59.853Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "App.axaml.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\Agentiky\\Agentiky\\App.axaml.cs",
+              "RelativeDocumentMoniker": "Agentiky\\App.axaml.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\Agentiky\\Agentiky\\App.axaml.cs",
+              "RelativeToolTip": "Agentiky\\App.axaml.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAmwBoAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T06:31:36.349Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "ChangeDialog.axaml",
               "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\Agentiky\\Agentiky\\Views\\ChangeDialog.axaml",
               "RelativeDocumentMoniker": "Agentiky\\Views\\ChangeDialog.axaml",
               "ToolTip": "C:\\Users\\PC\\source\\repos\\Agentiky\\Agentiky\\Views\\ChangeDialog.axaml",
               "RelativeToolTip": "Agentiky\\Views\\ChangeDialog.axaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABIAAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-04-03T16:22:15.524Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-03T16:22:15.524Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 11,
               "Title": "ChangeDialog.axaml.cs",
               "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\Agentiky\\Agentiky\\Views\\ChangeDialog.axaml.cs",
               "RelativeDocumentMoniker": "Agentiky\\Views\\ChangeDialog.axaml.cs",
               "ToolTip": "C:\\Users\\PC\\source\\repos\\Agentiky\\Agentiky\\Views\\ChangeDialog.axaml.cs",
               "RelativeToolTip": "Agentiky\\Views\\ChangeDialog.axaml.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAUwEAAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAADsAAAAAAAAAAAAAAEwAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-03T16:21:52.386Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-03T16:21:52.386Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "AgentViewModel.cs",
               "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\Agentiky\\Agentiky\\ViewModels\\AgentViewModel.cs",
               "RelativeDocumentMoniker": "Agentiky\\ViewModels\\AgentViewModel.cs",
               "ToolTip": "C:\\Users\\PC\\source\\repos\\Agentiky\\Agentiky\\ViewModels\\AgentViewModel.cs",
               "RelativeToolTip": "Agentiky\\ViewModels\\AgentViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAlAAAAAAAAAA==",
+              "ViewState": "AgIAABAAAAAAAAAAAAAAABgAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-03T16:19:41.074Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-03T16:19:41.074Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 10,
               "Title": "MainWindow.axaml",
               "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\Agentiky\\Agentiky\\Views\\MainWindow.axaml",
               "RelativeDocumentMoniker": "Agentiky\\Views\\MainWindow.axaml",
               "ToolTip": "C:\\Users\\PC\\source\\repos\\Agentiky\\Agentiky\\Views\\MainWindow.axaml",
               "RelativeToolTip": "Agentiky\\Views\\MainWindow.axaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAWAAAAAAAAAA==",
+              "ViewState": "AgIAABsAAAAAAAAAAAAIwAoAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-04-03T11:26:03.836Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-03T11:26:03.836Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ViewLocator.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\Agentiky\\Agentiky\\ViewLocator.cs",
-              "RelativeDocumentMoniker": "Agentiky\\ViewLocator.cs",
-              "ToolTip": "C:\\Users\\PC\\source\\repos\\Agentiky\\Agentiky\\ViewLocator.cs",
-              "RelativeToolTip": "Agentiky\\ViewLocator.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-31T09:10:37.012Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "MainWindow.axaml.cs",
               "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\Agentiky\\Agentiky\\Views\\MainWindow.axaml.cs",
               "RelativeDocumentMoniker": "Agentiky\\Views\\MainWindow.axaml.cs",
               "ToolTip": "C:\\Users\\PC\\source\\repos\\Agentiky\\Agentiky\\Views\\MainWindow.axaml.cs",
               "RelativeToolTip": "Agentiky\\Views\\MainWindow.axaml.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAAAB4AAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAAAJ0AAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-31T09:06:11.373Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-31T09:06:11.373Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 4,
+              "Title": "ViewLocator.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\Agentiky\\Agentiky\\ViewLocator.cs",
+              "RelativeDocumentMoniker": "Agentiky\\ViewLocator.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\Agentiky\\Agentiky\\ViewLocator.cs",
+              "RelativeToolTip": "Agentiky\\ViewLocator.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T09:10:37.012Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "MaterialDao.cs",
               "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\Agentiky\\Agentiky\\Hardik\\Connect\\Dao\\MaterialDao.cs",
               "RelativeDocumentMoniker": "Agentiky\\Hardik\\Connect\\Dao\\MaterialDao.cs",
@@ -175,43 +227,31 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "AgentDao.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\Agentiky\\Agentiky\\Hardik\\Connect\\Dao\\AgentDao.cs",
-              "RelativeDocumentMoniker": "Agentiky\\Hardik\\Connect\\Dao\\AgentDao.cs",
-              "ToolTip": "C:\\Users\\PC\\source\\repos\\Agentiky\\Agentiky\\Hardik\\Connect\\Dao\\AgentDao.cs",
-              "RelativeToolTip": "Agentiky\\Hardik\\Connect\\Dao\\AgentDao.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-28T11:00:32.752Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 3,
               "Title": "ProductDao.cs",
               "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\Agentiky\\Agentiky\\Hardik\\Connect\\Dao\\ProductDao.cs",
               "RelativeDocumentMoniker": "Agentiky\\Hardik\\Connect\\Dao\\ProductDao.cs",
               "ToolTip": "C:\\Users\\PC\\source\\repos\\Agentiky\\Agentiky\\Hardik\\Connect\\Dao\\ProductDao.cs",
               "RelativeToolTip": "Agentiky\\Hardik\\Connect\\Dao\\ProductDao.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAAAwAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-28T10:25:32.333Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "UpravaOgentov.cs",
               "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\Agentiky\\Agentiky\\Hardik\\Dop\\UpravaOgentov.cs",
               "RelativeDocumentMoniker": "Agentiky\\Hardik\\Dop\\UpravaOgentov.cs",
               "ToolTip": "C:\\Users\\PC\\source\\repos\\Agentiky\\Agentiky\\Hardik\\Dop\\UpravaOgentov.cs",
               "RelativeToolTip": "Agentiky\\Hardik\\Dop\\UpravaOgentov.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAcwBEAAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAAADYAAABZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-28T10:19:12.015Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 7,
               "Title": "ViewModelBase.cs",
               "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\Agentiky\\Agentiky\\ViewModels\\ViewModelBase.cs",
               "RelativeDocumentMoniker": "Agentiky\\ViewModels\\ViewModelBase.cs",
@@ -223,19 +263,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Connecter.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\Agentiky\\Agentiky\\Hardik\\Connect\\Connecter.cs",
-              "RelativeDocumentMoniker": "Agentiky\\Hardik\\Connect\\Connecter.cs",
-              "ToolTip": "C:\\Users\\PC\\source\\repos\\Agentiky\\Agentiky\\Hardik\\Connect\\Connecter.cs",
-              "RelativeToolTip": "Agentiky\\Hardik\\Connect\\Connecter.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAAABIAAAA/AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-28T10:16:32.578Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "MainWindow.axaml",
               "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\Agentiky\\Agentiky\\Views\\MainWindow.axaml",
               "RelativeDocumentMoniker": "Agentiky\\Views\\MainWindow.axaml",
@@ -246,16 +274,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "MainWindowViewModel.cs",
               "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\Agentiky\\Agentiky\\ViewModels\\MainWindowViewModel.cs",
               "RelativeDocumentMoniker": "Agentiky\\ViewModels\\MainWindowViewModel.cs",
               "ToolTip": "C:\\Users\\PC\\source\\repos\\Agentiky\\Agentiky\\ViewModels\\MainWindowViewModel.cs",
               "RelativeToolTip": "Agentiky\\ViewModels\\MainWindowViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAB1AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-28T10:15:47.104Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-28T10:15:47.104Z"
             }
           ]
         }

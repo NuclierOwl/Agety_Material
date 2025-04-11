@@ -1,56 +1,57 @@
 <Window xmlns="https://github.com/avaloniaui"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:vm="using:Agentiky.ViewModels"
+        xmlns:co="using:Agentiky.Hardik.Dop"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="using:Agentiky.Views"
+        xmlns:Nolocal="using:Agentiky.ViewModels"
         mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
         x:Class="Agentiky.Views.MainWindow"
-        Icon="/Assets/LogoType.ico"
-        Title="Agentiky">
+        Icon="/Assets/save.ico"
+        Title="Agentiky"
+        x:DataType="local:MainWindow">
 
-    <StackPanel Orientation="Vertical" Margin="10">
-        <StackPanel Orientation="Horizontal" Spacing="10" Margin="0,0,0,10">
-            <TextBox Watermark="Поиск..." Width="200" x:Name="SearchBox"/>
-            <ComboBox Items="{Binding AgentTypes}" SelectedIndex="0" Width="150" x:Name="TypeComboBox"
+	<StackPanel Orientation="Vertical" Margin="10">
+		<StackPanel Orientation="Horizontal" Spacing="10" Margin="0,0,0,10">
+			<TextBox Watermark="Поиск......................" Width="200" x:Name="SearchBox"/>
+			<ComboBox ItemsSource="{Binding LoadData}" SelectedIndex="0" Width="150" x:Name="TypeComboBox"
                       DisplayMemberBinding="{Binding Title}"/>
-            <ComboBox Items="{Binding SortOptions}" SelectedIndex="0" x:Name="SortComboBox"/>
-            <ToggleButton Content="↑↓" x:Name="SortDirectionButton"/>
-        </StackPanel>
-
-
-
-
-        <ListBox SelectionMode="Multiple" x:Name="AgentsListBox" Height="300">
-            <ListBox.ItemTemplate>
-                <DataTemplate>
-                    <StackPanel Orientation="Horizontal" Spacing="10">
-                        <Image Width="50" Height="50" Source="{Binding AgentImage}"/>
-                        <Image Width="20" Height="20" Source="{Binding TypeImage}" IsVisible="{Binding TypeImage != null}"/>
-                        <StackPanel Orientation="Vertical">
-                            <TextBlock Text="{Binding Agent.Title}" FontWeight="Bold"/>
-                            <TextBlock Text="{Binding AgentType.Title, StringFormat='Тип: {0}'}"/>
-                            <TextBlock Text="{Binding SalesCount, StringFormat='Продаж за год: {0}'}"/>
-                            <TextBlock Text="{Binding Discount, StringFormat='Скидка: {0}%'}"
-                                       Foreground="{Binding Discount >= 25 ? 
-                                           DynamicResource SystemAccentColorLight3 : 
-                                           DynamicResource SystemControlForegroundBaseHighBrush}"/>
-                            <TextBlock Text="{Binding Agent.Phone, StringFormat='Телефон: {0}'}"/>
-                        </StackPanel>
-                    </StackPanel>
-                </DataTemplate>
-            </ListBox.ItemTemplate>
-        </ListBox>
-
-
-
-        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,10,0,0">
-            <Button Content="Предыдущая" x:Name="PrevButton"/>
-            <Button Content="Следующая" x:Name="NextButton"/>
-        </StackPanel>
-
-
-
-        <Button Content="Изменить приоритет" x:Name="ChangePriorityButton" 
+			<ComboBox ItemsSource="{Binding SortOptions}" SelectedIndex="0" x:Name="SortComboBox"/>
+			<ToggleButton Content="↑↑/↓↓" x:Name="SortDirectionButton"/>
+		</StackPanel>
+		
+		
+		<ListBox SelectionMode="Multiple" x:Name="AgentsListBox" Height="300">
+			<ListBox.ItemTemplate>
+				<DataTemplate x:DataType="Nolocal:AgentViewModel">
+					<StackPanel Orientation="Horizontal" Spacing="10">
+						<Image Width="50" Height="50" Source="{Binding AgentImage}"/>
+						<Image Width="20" Height="20" Source="{Binding TypeImage}"
+           IsVisible="{Binding TypeImage, Converter={x:Static co:ObjectIsNotNullConverter.Default}}"/>
+						<StackPanel Orientation="Vertical">
+							<TextBlock Text="{Binding Agent.title}" FontWeight="Bold"/>
+							<TextBlock Text="{Binding AgentType.title, StringFormat='Тип: {0}'}"/>
+							<TextBlock Text="{Binding SalesCount, StringFormat='Продаж за год: {0}'}"/>
+							<TextBlock Text="{Binding Discount, StringFormat='Скидка: {0}%'}"
+               Foreground="{Binding Discount, Converter={x:Static co:DiscountToColorConverter.Default}}"/>
+							<TextBlock Text="{Binding Agent.phone, StringFormat='Телефон: {0}'}"/>
+						</StackPanel>
+					</StackPanel>
+				</DataTemplate>
+			</ListBox.ItemTemplate>
+		</ListBox>
+		
+		
+		
+		<StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,10">
+			<Button Content="Предыдущая" x:Name="PrevButton"/>
+			<Button Content="Следующая" x:Name="NextButton"/>
+		</StackPanel>
+		
+		
+		
+		<Button Content="Изменить приоритет" x:Name="ChangePriorityButton"
                 HorizontalAlignment="Right" Margin="0,10" IsEnabled="False"/>
-    </StackPanel>
+	</StackPanel>
 </Window>
