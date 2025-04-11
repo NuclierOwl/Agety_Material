@@ -1,6 +1,5 @@
 using Avalonia.Controls;
 using Avalonia.Interactivity;
-using Kurs_Dzudo.Hardik.Connector;
 using Kurs_Dzudo.Hardik.Dop;
 using System.Linq;
 
@@ -18,9 +17,10 @@ public partial class MainWindow : Window
         string username = UserNameText.Text;
         string password = PassTextBox.Text;
 
-        using (var context = new Connector())
+        using (var dbConnection = new ukhasnikis_BD_Sec.Hardik.Connect.DatabaseConnection())
         {
-            var user = context.organizatori.FirstOrDefault(u => u.login == username && u.pass == password);
+            var organizators = dbConnection.GetAllOrganizators();
+            var user = organizators.FirstOrDefault(u => u.login == username && u.pass == password);
 
             if (user != null)
             {

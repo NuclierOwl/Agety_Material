@@ -31,4 +31,10 @@
     <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="9.0.4" />
     <PackageReference Include="ReactiveUI" Version="20.2.45" />
   </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Views\OknaFunctiy\TablickiWindow.axaml.cs">
+      <DependentUpon>TablickiWindow.axaml</DependentUpon>
+    </Compile>
+  </ItemGroup>
 </Project>
